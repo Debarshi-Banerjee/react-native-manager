@@ -16,6 +16,6 @@ export default (state = INITIAL_STATE, action) => {
         case EMPLOYEE_CREATE:
             return { ...INITIAL_STATE };
         default:
-            return state;
+            return { ...state };
     }
 };

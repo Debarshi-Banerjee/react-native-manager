@@ -45,6 +45,6 @@ export default (state = INITIAL_STATE, action) => {
                 apiInProgrss: false
             };
         default:
-            return state;
+            return { ...state };
     }
 };
